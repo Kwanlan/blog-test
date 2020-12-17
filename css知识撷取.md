@@ -18,17 +18,17 @@ JS/CSS>样式style>布局Layout>绘制Paint>合成composite
 3. 跳过layout和Paint，改变transform，只需composite。
 
 # tranform
-作用：允许你=旋转，缩放，倾斜或平移给定元素
+作用：允许你旋转，缩放，倾斜或平移给定元素
 经验：一般要配合transition。inline元素不支持transform，需要变成block。
 四个常用的功能：
 1. translate位移
-transform: translate(120px, 50%);
+transform: `translate(120px, 50%);`
 2. scale缩放
-transform: scale(2, 0.5);
+transform: `scale(2, 0.5);`
 3. rotate旋转
-transform: rotate(0.5turn);
+transform: `rotate(0.5turn);`
 4. skew倾斜
-transform: skew(30deg, 20deg);
+transform: `skew(30deg, 20deg);`
 
 # CSS 动画的两种做法
 ## transition
